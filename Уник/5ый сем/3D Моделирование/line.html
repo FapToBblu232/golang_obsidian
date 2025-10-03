@@ -1,0 +1,22 @@
+<html>
+<body>
+<canvas id="line" width="200" height="200" />
+<script>
+    function draw_line(ctx, x0, y0, x1, y1, color) {
+        ctx.fileStyle = color
+        e = 0, y = y0;
+        for (let x = x0; x <= x1; x++) {
+            e = e + 2*(y1 - y0)
+            if (e > (x1 - x0)) {
+                y = y + 1
+                e = e - 2*(x1 - x0)
+            }
+            ctx.fillRect(x, y, 1, 1)
+        }
+    }
+    canvas = document.getElementById("line")
+    ctx = canvas.getContext("2d")
+    draw_line(ctx, 0, 0, 100, 100, "00FF30")
+</script>
+</body>
+</html>

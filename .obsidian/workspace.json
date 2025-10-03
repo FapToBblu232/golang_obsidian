@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "28be9bd45a4e77ff",
+        "id": "fd38dcc2f2cfe116",
         "type": "tabs",
         "children": [
           {
-            "id": "90830dd4ea4bafd8",
+            "id": "1a90d19a5f3030c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-08-18.md",
+                "file": "Уник/5ый сем/Философия/2025-10-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-18"
+              "title": "2025-10-03"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "7fbe0260b4202956",
@@ -113,12 +113,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Цели/Цели на разные месяца/Цели на конец марта 2025 03.2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Цели на конец марта 2025 03.2025"
+              "title": "Исходящие ссылки"
             }
           },
           {
@@ -142,24 +141,35 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Цели/Цели на разные месяца/Цели на конец марта 2025 03.2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Цели на конец марта 2025 03.2025"
+              "title": "Структура"
+            }
+          },
+          {
+            "id": "8716221f825a7f37",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
@@ -169,41 +179,54 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "90830dd4ea4bafd8",
+  "active": "dcb8d9d236ace274",
   "lastOpenFiles": [
+    "Daily/2025-10-02.md",
+    "Уник/5ый сем/Философия/2025-10-03.md",
+    "Cashe/photo_2025-10-02_20-31-38.jpg",
+    "Cashe/photo_2025-10-02_20-29-30.jpg",
+    "Cashe/photo_2025-10-02_20-09-49.jpg",
+    "Уник/5ый сем/3D Моделирование/2025-10-01.md",
+    "Уник/5ый сем/3D Моделирование/find.py",
+    "Cashe/photo_2025-10-01_20-08-23.jpg",
+    "Cashe/photo_2025-10-01_20-08-04.jpg",
+    "Уник/5ый сем/3D Моделирование/2025-09-19.md",
+    "Уник/5ый сем/3D Моделирование/2025-09-17.md",
+    "Уник/5ый сем/3D Моделирование/2025-09-10.md",
+    "Уник/5ый сем/3D Моделирование/2025-09-05.md",
+    "Cashe/Pasted image 20250813132138.png",
+    "Cashe/Pasted image 20250815152408.png",
+    "GO/2025-08-13.md",
+    "VK/2025-09-30.md",
     "Programming/День - тема.md",
+    "Programming/2025-08-26.md",
+    "GO/2025-08-18.md",
+    "GO/2025-08-17.md",
+    "GO/2025-08-15.md",
+    "GO/2025-08-12.md",
+    "GO/2025-08-11.md",
     "Programming/Откуда вообще брать инфу.md",
-    "Daily/2025-08-18.md",
-    "Daily/2025-08-17.md",
-    "Daily/2025-08-15.md",
+    "GO",
+    "Daily/2025-03-23.md",
+    "VK/2025-09-26.md",
+    "VK",
+    "Cashe/Pasted image 20250926190303.png",
+    "Уник/5ый сем/Философия/2025-09-26.md",
+    "Уник/5ый сем/АиСД/2025-09-10.md",
+    "Уник/5ый сем/Философия/2025-09-23.md",
+    "Уник/5ый сем/Философия/2025-09-09.md",
+    "Уник/5ый сем/3D Моделирование/8_circul.py",
+    "Cashe/photo_2025-09-19_19-45-57.jpg",
+    "Cashe/Pasted image 20250917193127.png",
+    "Уник/5ый сем/3D Моделирование/line.html",
+    "Уник/5ый сем/3D Моделирование/line 1.py",
+    "Уник/5ый сем/3D Моделирование/line.py",
+    "Уник/5ый сем/АиСД",
+    "Уник/5ый сем/Без названия.md",
+    "Уник/5ый сем/Философия",
+    "Cashe/Не подтвержден 362591.crdownload",
     "Templates/Planner Template.md",
     "Templates/Default Template.md",
-    "Templates/Course Template.md",
-    "Templates/Book Template.md",
-    "Cashe/Pasted image 20250815152408.png",
-    "Cashe/Pasted image 20250813132138.png",
-    "Cashe/Pasted image 20250813132051.png",
-    "Cashe/Pasted image 20250813132003.png",
-    "Cashe/Pasted image 20250813113126.png",
-    "Daily/2025-08-13.md",
-    "Daily/2025-08-12.md",
-    "Daily/2025-08-11.md",
-    "Цели/Цели на разные месяца/Цели на конец марта 2025 03.2025.md",
-    "Цели/Цели на год/Цели на год.md",
-    "Daily/2025-03-23.md",
-    "Daily/Без названия.md",
-    "Без названия.md",
-    "Daily/Без названия.canvas",
-    "Programming/Без названия 1.md",
-    "Цели/Цели на разные месяца",
-    "Цели/Цели на год",
-    "Цели",
-    "Добро пожаловать.md",
-    "Templates/Reference Template.md",
-    "Templates/Daily Template.md",
-    "Programming",
-    "Daily",
-    "Templates",
-    "Cashe"
+    "Daily/Без названия.canvas"
   ]
 }
