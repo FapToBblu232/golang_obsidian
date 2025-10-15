@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Уник/5ый сем/Философия/2025-10-03.md",
+                "file": "Уник/5ый сем/3D Моделирование/2025-10-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-03"
+              "title": "2025-10-08"
+            }
+          },
+          {
+            "id": "15ddb57306ad1f37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Уник/5ый сем/3D Моделирование/2025-10-01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-01"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,15 +194,35 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "dcb8d9d236ace274",
+  "active": "15ddb57306ad1f37",
   "lastOpenFiles": [
+    "Cashe/photo_2025-10-08_20-29-21.jpg",
+    "Уник/5ый сем/3D Моделирование/semhd.py",
+    "Уник/5ый сем/3D Моделирование/2025-10-08.md",
+    "Cashe/photo_2025-10-08_20-38-31.jpg",
+    "Уник/5ый сем/АиСД/Deque/cpp/deq.exe",
+    "Уник/5ый сем/АиСД/Deque/cpp/2.cpp",
+    "Уник/5ый сем/АиСД/Deque/cpp",
+    "Уник/5ый сем/АиСД/BiSearch/BiSearch.go",
+    "Уник/5ый сем/АиСД/BiSearch/search.exe",
+    "Уник/5ый сем/АиСД/BiSearch/1.exe",
+    "Уник/5ый сем/АиСД/BiSearch/cpp/BiSearch.go",
+    "Уник/5ый сем/АиСД/BiSearch/1.cpp",
+    "Уник/5ый сем/АиСД/BiSearch/cpp/1.exe",
+    "Цели/Цели на разные месяца/Цели на конец марта 2025 03.2025.md",
+    "VK/АиСД/2025-10-06.md",
+    "Цели/Цели на год/Цели на год.md",
+    "Programming/2025-08-26.md",
+    "GO/2025-08-11.md",
+    "Programming/День - тема.md",
+    "Programming/Откуда вообще брать инфу.md",
+    "Daily/2025-03-23.md",
     "Daily/2025-10-02.md",
     "Уник/5ый сем/Философия/2025-10-03.md",
     "Cashe/photo_2025-10-02_20-31-38.jpg",
     "Cashe/photo_2025-10-02_20-29-30.jpg",
     "Cashe/photo_2025-10-02_20-09-49.jpg",
     "Уник/5ый сем/3D Моделирование/2025-10-01.md",
-    "Уник/5ый сем/3D Моделирование/find.py",
     "Cashe/photo_2025-10-01_20-08-23.jpg",
     "Cashe/photo_2025-10-01_20-08-04.jpg",
     "Уник/5ый сем/3D Моделирование/2025-09-19.md",
@@ -198,35 +233,14 @@
     "Cashe/Pasted image 20250815152408.png",
     "GO/2025-08-13.md",
     "VK/2025-09-30.md",
-    "Programming/День - тема.md",
-    "Programming/2025-08-26.md",
     "GO/2025-08-18.md",
     "GO/2025-08-17.md",
     "GO/2025-08-15.md",
     "GO/2025-08-12.md",
-    "GO/2025-08-11.md",
-    "Programming/Откуда вообще брать инфу.md",
-    "GO",
-    "Daily/2025-03-23.md",
     "VK/2025-09-26.md",
-    "VK",
     "Cashe/Pasted image 20250926190303.png",
     "Уник/5ый сем/Философия/2025-09-26.md",
     "Уник/5ый сем/АиСД/2025-09-10.md",
-    "Уник/5ый сем/Философия/2025-09-23.md",
-    "Уник/5ый сем/Философия/2025-09-09.md",
-    "Уник/5ый сем/3D Моделирование/8_circul.py",
-    "Cashe/photo_2025-09-19_19-45-57.jpg",
-    "Cashe/Pasted image 20250917193127.png",
-    "Уник/5ый сем/3D Моделирование/line.html",
-    "Уник/5ый сем/3D Моделирование/line 1.py",
-    "Уник/5ый сем/3D Моделирование/line.py",
-    "Уник/5ый сем/АиСД",
-    "Уник/5ый сем/Без названия.md",
-    "Уник/5ый сем/Философия",
-    "Cashe/Не подтвержден 362591.crdownload",
-    "Templates/Planner Template.md",
-    "Templates/Default Template.md",
     "Daily/Без названия.canvas"
   ]
 }
