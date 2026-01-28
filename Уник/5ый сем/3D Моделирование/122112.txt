@@ -1,0 +1,20 @@
+
+# triangle = [(60, 130), (100, 50), (140, 130)]
+# circle_center = (100, 100)
+# circle_radius = 20
+
+# mask = Image.new("L", img.size, 0)
+# draw_mask = ImageDraw.Draw(mask)
+# draw_mask.polygon(triangle, fill=255)
+# draw_mask.ellipse(
+#     [
+#         (circle_center[0] - circle_radius, circle_center[1] - circle_radius),
+#         (circle_center[0] + circle_radius, circle_center[1] + circle_radius)
+#     ],
+#     fill=0
+# )
+# texture = Image.open(r"C:\Obsidian\Learn\Уник\5ый сем\3D Моделирование\rk1\avatar.jpg").convert("RGB")
+# texture = texture.resize(img.size)
+
+# pattern_part = Image.composite(texture, img, mask)
+# img.paste(pattern_part, (0, 0))

@@ -1,0 +1,18 @@
+# Pyramid OBJ
+
+g Pyramid
+
+v  0    0    0
+v  1    0    0
+v  1    1    0
+v  0    1    0
+v  0.5  0.5  1.6
+
+# Base (quad)
+f 1 2 3 4
+
+# Side faces (triangles)
+f 5 1 2
+f 5 2 3
+f 5 3 4
+f 5 4 1

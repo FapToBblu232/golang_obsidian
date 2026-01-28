@@ -81,13 +81,11 @@ def fill_xor(img, y, color):
             xor = (xor + 1) % 2
         if xor == 1:
             img.putpixel((i, y), (255, 0, 0))
-		
-		
 
 img = Image.new('RGB', (200, 200))
 
-# points = [(70, 10), (50, 100), (100, 150), (150, 100), (130, 10)]
-points = [(70, 10), (100, 10), (100, 150), (70, 150)]
+points = [(70, 10), (50, 100), (100, 150), (150, 100), (130, 10)]
+# points = [(70, 10), (100, 10), (100, 150), (70, 150)]
 maxi = 0
 mini = 200
 for i in range(len(points)):
@@ -100,7 +98,7 @@ sides = get_side_array(points)
 for i in range(mini, maxi):
 	inters = get_intersection_array(sides, i)
 	print(inters)
-	fill_xor(img, i, (255, 0, 0))
+	# fill(img, inters, (255, 0, 0))
 	
 
 img.show()
