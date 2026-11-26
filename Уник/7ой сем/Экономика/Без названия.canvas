@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"eb6d35f6429aaa1e","type":"text","text":"Государство","x":-100,"y":-20,"width":135,"height":60},
+		{"id":"f5d4802dcdd45fbc","type":"text","text":"Рынок товаров","x":-175,"y":260,"width":250,"height":60},
+		{"id":"7a284c976413d072","type":"text","text":"Домохозяйство","x":260,"y":-30,"width":245,"height":50},
+		{"id":"3610e06d0a2b7f47","type":"text","text":"Рынок ресурсов","x":-120,"y":-280,"width":250,"height":60},
+		{"id":"979d45ead4dabce2","type":"text","text":"Фирмы","x":-500,"y":-10,"width":125,"height":60}
+	],
+	"edges":[
+		{"id":"41bda36cc9296b2d","fromNode":"7a284c976413d072","fromSide":"top","toNode":"3610e06d0a2b7f47","toSide":"right","label":"Ресурсы"},
+		{"id":"3c769cdbdb619f7b","fromNode":"3610e06d0a2b7f47","fromSide":"left","toNode":"979d45ead4dabce2","toSide":"top","label":"Ресурсы"},
+		{"id":"b7296fb679f23099","fromNode":"979d45ead4dabce2","fromSide":"bottom","toNode":"f5d4802dcdd45fbc","toSide":"left","label":"Товары"},
+		{"id":"a1fecdae3cbbda92","fromNode":"f5d4802dcdd45fbc","fromSide":"right","toNode":"7a284c976413d072","toSide":"bottom","label":"Товары"},
+		{"id":"450f46f07b1f4747","fromNode":"3610e06d0a2b7f47","fromSide":"right","toNode":"7a284c976413d072","toSide":"right","label":"Доход"},
+		{"id":"010ec875969fa2dd","fromNode":"979d45ead4dabce2","fromSide":"left","toNode":"3610e06d0a2b7f47","toSide":"left","label":"Расходы"},
+		{"id":"58b9fc29ca8fdd0f","fromNode":"f5d4802dcdd45fbc","fromSide":"left","toNode":"979d45ead4dabce2","toSide":"left","label":"Доход"},
+		{"id":"b35ed1d24a17837b","fromNode":"7a284c976413d072","fromSide":"right","toNode":"f5d4802dcdd45fbc","toSide":"right","label":"Расход"},
+		{"id":"808ed3946ab50009","fromNode":"eb6d35f6429aaa1e","fromSide":"left","toNode":"979d45ead4dabce2","toSide":"right","label":"Субсидии"},
+		{"id":"3042d4b84340267d","fromNode":"eb6d35f6429aaa1e","fromSide":"right","toNode":"7a284c976413d072","toSide":"left","label":"Субсидии"},
+		{"id":"9df6b946d6dc3b52","fromNode":"3610e06d0a2b7f47","fromSide":"bottom","toNode":"eb6d35f6429aaa1e","toSide":"top","label":"Ресурсы"},
+		{"id":"41919401eaf6b8ff","fromNode":"eb6d35f6429aaa1e","fromSide":"bottom","toNode":"f5d4802dcdd45fbc","toSide":"top","label":"Расходы"},
+		{"id":"62d50c3f3224519d","fromNode":"f5d4802dcdd45fbc","fromSide":"top","toNode":"eb6d35f6429aaa1e","toSide":"right","label":"Товары"},
+		{"id":"4bfe42a3e45da58f","fromNode":"7a284c976413d072","fromSide":"top","toNode":"eb6d35f6429aaa1e","toSide":"right","label":"Налоги"},
+		{"id":"7d7c903b1d970902","fromNode":"979d45ead4dabce2","fromSide":"right","toNode":"eb6d35f6429aaa1e","toSide":"bottom","label":"Налоги"}
+	]
+}

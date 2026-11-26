@@ -1,0 +1,41 @@
+Q       BIT   P3.2
+U       BIT   20H.3
+V       BIT   P1.3
+W       BIT   22H.0
+X       BIT   28H.2
+Z       BIT   P2.5
+A1       BIT   28H.5
+B1       BIT   21H.4
+C1      BIT   25H.0
+F1      BIT   PSW.1
+
+
+        ORG   0000H
+        JMP   START
+        ORG   0100H
+START:
+
+	MOV   C, W
+        ANL   C, V
+        MOV   F0, C
+
+        MOV   C, X
+        ANL   C, /Z
+        ORL   C, F0
+        MOV   F0, C
+
+        MOV   C, A1
+        ORL   C, C1
+        MOV   F1, C
+
+        MOV   C, U
+        ORL   C, B1
+        ANL   C, F1
+
+        ORL   C, F0
+        MOV   Q, C
+
+        CPL   Q
+        SJMP  $
+        END
+

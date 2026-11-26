@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"0cb0590f69cba1d0","x":-160,"y":-100,"width":250,"height":60,"type":"text","text":"OS Linux"},
+		{"id":"3979b44dcc42a33a","x":-410,"y":100,"width":250,"height":60,"type":"text","text":"Ядро"},
+		{"id":"87ba459b6e1e5cd7","x":90,"y":100,"width":250,"height":60,"type":"text","text":"ПО + файловая система"},
+		{"id":"9177d7a55d9448b2","x":-160,"y":340,"width":250,"height":60,"type":"text","text":"Открытый исходный код"}
+	],
+	"edges":[
+		{"id":"f24c0415bd5bd672","fromNode":"0cb0590f69cba1d0","fromSide":"left","toNode":"3979b44dcc42a33a","toSide":"top"},
+		{"id":"4ab0882e80a2202c","fromNode":"0cb0590f69cba1d0","fromSide":"right","toNode":"87ba459b6e1e5cd7","toSide":"top"},
+		{"id":"3e905647a41f0705","fromNode":"9177d7a55d9448b2","fromSide":"right","toNode":"87ba459b6e1e5cd7","toSide":"bottom"},
+		{"id":"b1d1bfd4eee2f06a","fromNode":"9177d7a55d9448b2","fromSide":"left","toNode":"3979b44dcc42a33a","toSide":"bottom"}
+	]
+}

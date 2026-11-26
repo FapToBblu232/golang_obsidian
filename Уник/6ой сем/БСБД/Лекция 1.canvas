@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"b5dd1cc8a2b8ca8e","type":"text","text":"Продажа товаров - функция A0","x":-103,"y":-30,"width":250,"height":60},
+		{"id":"7229b00ec63288ef","type":"text","text":"Спрос (заявка покупателя) ","x":-460,"y":-30,"width":217,"height":60},
+		{"id":"fe91db5e8b158691","type":"text","text":"**Пользователь** - исполнители.","x":-103,"y":80,"width":250,"height":80},
+		{"id":"40e4daa8a696fe00","type":"text","text":"Отчёт, чек","x":260,"y":-30,"width":250,"height":60},
+		{"id":"fd372df59f9ba5e8","type":"text","text":"Каталог товаров - **таблицы**","x":-103,"y":-180,"width":250,"height":80},
+		{"id":"958e60b05934148e","x":-103,"y":440,"width":250,"height":60,"type":"text","text":"Формирование заказа"},
+		{"id":"e4db1e2e99de95c8","x":-460,"y":440,"width":250,"height":60,"type":"text","text":"Заявка"},
+		{"id":"4c785dacc655b1c5","x":-103,"y":580,"width":250,"height":60,"type":"text","text":"Покупатель"},
+		{"id":"94a4480c449f0ac9","x":240,"y":440,"width":250,"height":60,"type":"text","text":"Обработка заказа"},
+		{"id":"768655aabbcd3a43","x":240,"y":580,"width":250,"height":60,"type":"text","text":"Продавец"},
+		{"id":"6eba3e70aa2ea406","x":-103,"y":300,"width":250,"height":60,"type":"text","text":"Товар"},
+		{"id":"7979adc8ade9a134","x":560,"y":440,"width":250,"height":60,"type":"text","text":"Товар. (Отчётность)"},
+		{"id":"71dd76d889d0f4e0","x":560,"y":300,"width":250,"height":60,"type":"text","text":"Оплата"}
+	],
+	"edges":[
+		{"id":"69936bc585cac381","fromNode":"fd372df59f9ba5e8","fromSide":"bottom","toNode":"b5dd1cc8a2b8ca8e","toSide":"top","label":"Control"},
+		{"id":"c2009f68bb3c8364","fromNode":"7229b00ec63288ef","fromSide":"right","toNode":"b5dd1cc8a2b8ca8e","toSide":"left","label":"Input"},
+		{"id":"7c9380b8738f0b6a","fromNode":"b5dd1cc8a2b8ca8e","fromSide":"right","toNode":"40e4daa8a696fe00","toSide":"left","label":"Out"},
+		{"id":"93acddd0886910ff","fromNode":"b5dd1cc8a2b8ca8e","fromSide":"bottom","toNode":"fe91db5e8b158691","toSide":"top","label":"M - Mechanism"},
+		{"id":"c5710a6c1e1fe2c4","fromNode":"e4db1e2e99de95c8","fromSide":"right","toNode":"958e60b05934148e","toSide":"left"},
+		{"id":"733cbfa484c62fd3","fromNode":"6eba3e70aa2ea406","fromSide":"bottom","toNode":"958e60b05934148e","toSide":"top","label":"Каталог"},
+		{"id":"047c78206a26a313","fromNode":"958e60b05934148e","fromSide":"right","toNode":"94a4480c449f0ac9","toSide":"left"},
+		{"id":"ab49a51863a1d10d","fromNode":"4c785dacc655b1c5","fromSide":"top","toNode":"958e60b05934148e","toSide":"bottom"},
+		{"id":"29fa2996f7448ad8","fromNode":"768655aabbcd3a43","fromSide":"top","toNode":"94a4480c449f0ac9","toSide":"bottom"},
+		{"id":"59d4563dd088993a","fromNode":"6eba3e70aa2ea406","fromSide":"right","toNode":"94a4480c449f0ac9","toSide":"top","label":"Наличие"},
+		{"id":"3b638dc484ff024b","fromNode":"94a4480c449f0ac9","fromSide":"right","toNode":"7979adc8ade9a134","toSide":"left"},
+		{"id":"add1d386575c4585","fromNode":"71dd76d889d0f4e0","fromSide":"left","toNode":"94a4480c449f0ac9","toSide":"top"}
+	]
+}
